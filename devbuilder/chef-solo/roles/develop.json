@@ -1,0 +1,12 @@
+{
+  "name": "develop",
+  "default_attributes": {},
+  "override_attributes": {},
+  "json_class": "Chef::Role",
+  "description": "",
+  "chef_type": "role",
+  "run_list": [
+    "recipe[cross-tools::codesourcery]",
+    "recipe[cross-tools::ti]"
+  ]
+}
